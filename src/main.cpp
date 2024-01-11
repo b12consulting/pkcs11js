@@ -24,4 +24,4 @@ NAN_MODULE_INIT(init)
 	declare_result_values(target);
 }
 
-NODE_MODULE(pkcs11, init)
+NAN_MODULE_WORKER_ENABLED(pkcs11, init)
