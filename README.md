@@ -1,3 +1,6 @@
+This repo was needed [here](https://gitlab.com/fmsbict/omnisphere/electron-v2/-/blob/main/package.json?ref_type=heads#L23). We had to fork it to add a fix because it was not building with node 18. Now the lecacy repo builds correctly with node 18, we can delete this one.
+
+
 # PKCS11js
 
 [![license](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/PeculiarVentures/graphene/master/LICENSE)
